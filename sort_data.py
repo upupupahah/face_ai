@@ -15,6 +15,6 @@ def sort_data(data_root, output_root):
         else:
             print(f"skip file: {i}")
 
-sort_data(r"data/train", r"dataset/train")
-sort_data(r"data/valid", r"dataset/val")
-sort_data(r"data/test", r"dataset/test")
+sort_data(r"tmp/train", r"dataset/train")
+sort_data(r"tmp/valid", r"dataset/val")
+sort_data(r"tmp/test", r"dataset/test")

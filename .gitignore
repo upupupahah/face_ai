@@ -3,3 +3,8 @@ a
 dataset
 data
 *.pt
+tmp
+out
+out_boss
+boss_test
+__pycache__

@@ -73,8 +73,8 @@ def run_inference(model_path, data_root, out_dir, device, img_size=256):
 
 if __name__ == '__main__':
     model_path = 'best_model.pt'
-    data_root = 'dataset/test/images'
-    out_dir = 'out'
+    data_root = 'boss_test'
+    out_dir = 'out_boss'
     device = 'cuda'
 
     run_inference(model_path, data_root, out_dir, device=device)
